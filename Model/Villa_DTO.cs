@@ -17,6 +17,8 @@ namespace Villa_API.Model
         public string? Description { get; set; }
         [Required]
        public DateTime CreatedDate { get; set; }
+        public DateTime EndDate {get; set;}
+        public DateTime UpdateDate {get; set;}
       
     }
 }
