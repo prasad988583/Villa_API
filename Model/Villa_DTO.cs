@@ -16,9 +16,8 @@ namespace Villa_API.Model
         [MaxLength(200)]
         public string? Description { get; set; }
         [Required]
-       public DateTime CreatedDate { get; set; }
+       public DateTime CreatedDate { get; set;}
         public DateTime EndDate {get; set;}
-        public DateTime UpdateDate {get; set;}
-      
+        public DateTime UpdateDate {get; set;}    
     }
 }
